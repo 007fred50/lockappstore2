@@ -1,0 +1,7 @@
+[Desktop Entry]
+_Name=lockappstore
+Exec=qmlscene %U qml/Main.qml
+Icon=assets/img_85968.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
