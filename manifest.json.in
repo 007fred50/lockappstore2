@@ -9,7 +9,7 @@
             "desktop":  "lockappstore.desktop"
         }
     },
-    "version": "1.0.2",
+    "version": "1.0.4",
     "maintainer": "lockappstore <007fred50@gmail.com>",
     "framework" : "@CLICK_FRAMEWORK@"
 }

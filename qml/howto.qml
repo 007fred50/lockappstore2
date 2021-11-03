@@ -25,11 +25,40 @@ Column{
             height: howToUseIt.height
 
             Text{
+                id: aboutText7
+                width: 50
+                height: 100
+                text: "Follow these steps:"
+                font.pixelSize: root.width * 0.04
+                maximumLineCount: 3
+
+            }
+        }
+
+
+        Rectangle{
+            width: 200
+            height: howToUseIt.height
+
+            Text{
                 id: aboutText1
                 width: 50
                 height: 100
-                color: "green"
-                text: "Just hit Download button then\nGoto Download and Install the App"
+                text: "1) Just hit Download button then\nGoto Download and Install the App"
+                font.pixelSize: root.width * 0.04
+                maximumLineCount: 3
+
+            }
+        }
+        Rectangle{
+            width: 200
+            height: howToUseIt.height
+
+            Text{
+                id: aboutText6
+                width: 50
+                height: 100
+                text: "2) Click Downloads and selected file\nThen Install the wished App"
                 font.pixelSize: root.width * 0.04
                 maximumLineCount: 3
 
@@ -41,26 +70,11 @@ Column{
             height: howToUseIt.height
 
             Text{
-                id: aboutText5
+                id: aboutText8
                 width: 50
                 height: 100
-                text: ".click file is binary\nMobile language (No Source Code)"
+                text: ""
                 font.pixelSize: root.width * 0.04
-                maximumLineCount: 3
-
-            }
-        }
-
-        Rectangle{
-            width: 200
-            height: howToUseIt.height
-
-            Text{
-                id: aboutText4
-                width: 50
-                height: 100
-                text: "If you have any freeback\njust write to me 007fred50@gmail.com"
-                font.pixelSize: root.width * 0.035
                 maximumLineCount: 3
 
             }
@@ -91,6 +105,21 @@ Column{
                 height: 100
                 text: "http://lockappstore.people8people.com:8080"
                 font.pixelSize: root.width * 0.03
+                maximumLineCount: 3
+
+            }
+        }
+
+        Rectangle{
+            width: 200
+            height: howToUseIt.height
+
+            Text{
+                id: aboutText4
+                width: 50
+                height: 100
+                text: "If you have any Feedback\njust write to me 007fred50@gmail.com"
+                font.pixelSize: root.width * 0.035
                 maximumLineCount: 3
 
             }
